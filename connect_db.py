@@ -17,15 +17,20 @@ def disconnect():
 def create_table():
     global cursor
     cursor.execute("""
-        CREATE TABLE caronas (
+        CREATE TABLE rides (
             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-            nome TEXT NOT NULL,
-            idade INTEGER,
-            cpf     VARCHAR(11) NOT NULL,
-            contato TEXT,
-            cidade_from TEXT,
-            cidade_to TEXT,
-            criado_em DATE NOT NULL
+            user_id INTEGER NOT NULL,
+            first_name TEXT NOT NULL,
+            last_name TEXT NOT NULL,
+            username TEXT NOT NULL,
+            spots INTEGER NOT NULL,
+            contribution INTEGER NOT NULL,
+            #cpf VARCHAR(11) NOT NULL,
+            contact TEXT,
+            from_city TEXT,
+            to_city TEXT,
+            ride_date DATE NOT NULL,
+            created_in DATE NOT NULL
     );
     """)
     print('Tabela criada com sucesso.')

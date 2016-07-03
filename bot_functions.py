@@ -2,8 +2,7 @@
 import re
 import os
 import urllib.request, urllib.error, urllib.parse
-
-hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
+from connect_db import *
 
 #Grava o id de todo chat iniciado com o bot
 def save_id(chat_id):
