@@ -95,3 +95,4 @@ chat_ids
 caronas.db
 settings.py
 *.pyc
+.DS_Store
