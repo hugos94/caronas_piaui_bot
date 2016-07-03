@@ -92,5 +92,6 @@ __pycache__/
 botenv/
 chat_id
 chat_ids
+caronas.db
 settings.py
 *.pyc

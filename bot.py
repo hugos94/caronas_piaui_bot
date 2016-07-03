@@ -4,7 +4,7 @@ import telepot
 import telepot.async
 import settings
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardHide
-from caronaspiauibotfunctions import *
+from bot_functions import *
 
 oferecer_carona = 'Oferecer Carona'
 listar_caronas = 'Listar Caronas Disponíveis'
