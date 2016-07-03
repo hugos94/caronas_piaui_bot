@@ -1,2 +1,2 @@
 # caronas_piaui_bot
-Bot de Caronas do estado do Piauí
+Bot de Caronas Intermunicipais do Estado do Piauí
