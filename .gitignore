@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+__pycache__/
+env/
+chat_id
+chat_ids
+settings.py
+*.pyc
